@@ -1,24 +1,24 @@
-<img src="https://www.fastly.com/altitude-nyc/images/footer-logo.png" width="300">
+<img src="https://www.fastly.com/altitude/assets/logo-7d39dce955f0bcb44b1c3b53871b2f9af80b843979c8188fc7f5e0feb782b768.png" width="300">
 
-# ABCD: Always be continuously deploying
-This repository contains the files and excercises needed to participate in the [Fastly Altitude NYC 2017]() workshop "Always be continuously deploying".
+# Building a continuous deployment pipeline 
+This repository contains the files and excercises needed to participate in the [Fastly Altitude SF 2017](https://www.fastly.com/altitude/) workshop "Building and continuous deployment pipeline".
 
 **Welcome!**
-The goal of the workshop is to build a continuous deployment pipeline around an example Fastly config. Combining Fastly’s 5-second deploys, API control, and some open-source tooling (Travis, Terraform) attendees will contribute live changes and see their results in the demo.
+The goal of the workshop is to build a continuous deployment pipeline around an example Fastly config. Combining Fastly’s 5-second deploys, API control, and some open-source tooling ([Travis](https://travis-ci.org/), [Terraform](https://www.terraform.io/)) attendees will contribute live changes and see their results in the demo.
 
 ## Prerequisites
 - Have a GitHub account
-- Have a machine with a terminal prompt, `Make` and `Ruby` installed
+- Have a machine with a terminal prompt, `Make` and `Ruby` installed (*not required if using provided workstation)
 
 ## Install:
 Altitude attendees will be provided with a pre-provisioned server with all software and files needed already installed for you convienince. The conncetion details will be handed out to you.
-- [Create a new GitHub repository](https://help.github.com/articles/create-a-repo/), called `abcd-workshop`.
+- [Create a new GitHub repository](https://help.github.com/articles/create-a-repo/), called `ci-cd-workshop`.
 - `ssh -A fastly@<IP of host assigned to you>`
 - `cd workshop`
-- `git remote add origin git@github.com:<USERNAME>/abcd-workshop.git`
+- `git remote add origin git@github.com:<USERNAME>/ci-cd-workshop.git`
 
 Alternatively if you aretrying this at home:
-- Fork the GitHub repo: [https://github.com/fastly/altitude-nyc-abcd-workshop](https://github.com/fastly/altitude-nyc-abcd-workshop)
+- Fork the GitHub repo: [https://github.com/fastly/altitude-ci-cd-workshop](https://github.com/fastly/altitude-ci-cd-workshop)
 - Clone the repo to a local directory on your machine:
     - Via SSH: `git clone git@github.com:<USERNAME>/altitude-nyc-abcd-workshop.git`
     - Via HTTP: `git clone https://github.com/<USERNAME>/altitude-nyc-abcd-workshop.git`
