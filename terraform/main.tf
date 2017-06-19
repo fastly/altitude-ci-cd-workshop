@@ -26,8 +26,8 @@ resource "fastly_service_v1" "my-fastly-service" {
 
   backend {
     address               = "storage.googleapis.com"
-    ssl_hostname          = "altitude-nyc-abcd-2017-stage.storage.googleapis.com"
-    name                  = "altitude-nyc-abcd-2017-stage"
+    ssl_hostname          = "altitude-ci-cd-2017-stage.storage.googleapis.com"
+    name                  = "altitude-ci-cd-2017-stage"
     port                  = 443
     first_byte_timeout    = 3000
     max_conn              = 200
@@ -39,7 +39,7 @@ resource "fastly_service_v1" "my-fastly-service" {
     action      = "set"
     type        = "request"
     destination = "http.Host"
-    source      = "\"altitude-nyc-abcd-2017-stage.storage.googleapis.com\""
+    source      = "\"altitude-ci-cd-2017-stage.storage.googleapis.com\""
   }
 }
 
