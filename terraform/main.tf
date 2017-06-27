@@ -26,7 +26,8 @@ resource "fastly_service_v1" "my-fastly-service" {
 
   backend {
     address               = "storage.googleapis.com"
-    ssl_hostname          = "altitude-ci-cd-2017-stage.storage.googleapis.com"
+    ssl_cert_hostname     = "altitude-ci-cd-2017-stage.storage.googleapis.com"
+    ssl_sni_hostname      = "altitude-ci-cd-2017-stage.storage.googleapis.com"
     name                  = "altitude-ci-cd-2017-stage"
     port                  = 443
     first_byte_timeout    = 3000

@@ -12,10 +12,10 @@ The goal of the workshop is to build a continuous deployment pipeline around an 
 
 ## Install:
 Altitude attendees will be provided with a pre-provisioned server with all software and files needed already installed for you convienince. The conncetion details will be handed out to you.
-- [Create a new GitHub repository](https://help.github.com/articles/create-a-repo/), called `ci-cd-workshop`.
-- `ssh -A fastly@<IP of host assigned to you>`
+- [Create a new GitHub repository](https://help.github.com/articles/create-a-repo/), called `altitude-ci-cd-workshop`.
+- `ssh -A altitude@<IP of host assigned to you>`
 - `cd workshop`
-- `git remote add origin git@github.com:<USERNAME>/ci-cd-workshop.git`
+- `git remote add origin git@github.com:<USERNAME>/altitude-ci-cd-workshop.git`
 
 Alternatively if you aretrying this at home:
 - Fork the GitHub repo: [https://github.com/fastly/altitude-ci-cd-workshop](https://github.com/fastly/altitude-ci-cd-workshop)
