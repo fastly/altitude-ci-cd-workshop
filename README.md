@@ -1,6 +1,6 @@
 <img src="https://www.fastly.com/altitude/assets/logo-7d39dce955f0bcb44b1c3b53871b2f9af80b843979c8188fc7f5e0feb782b768.png" width="300">
 
-# Building a continuous deployment pipeline 
+# Building a Fastly continuous deployment pipeline 
 This repository contains the files and excercises needed to participate in the [Fastly Altitude SF 2017](https://www.fastly.com/altitude/) workshop "Building a continuous deployment pipeline".
 
 **Welcome!**
