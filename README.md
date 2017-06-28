@@ -32,5 +32,5 @@ Alternatively if you aretrying this at home:
 To start, follow the tasks in the `exercises` directory:
 
 1. [Define a Fastly service with Terraform](exercises/1.md)
-2. [Configure continuous deployment with Travis](exercises/2.md)
-3. [Setup multiple environments: staging & production](exercises/3.md)
+2. [Initialize remote state persistence](exercises/2.md)
+3. [Configure continuous deployment with Travis](exercises/3.md)
